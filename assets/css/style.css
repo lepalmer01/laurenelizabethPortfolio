@@ -261,12 +261,12 @@ section.work {
     .fullwidthFigure {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .fullwidthFigure .about-img img {
         order: -1;
-    }
+    } 
 
     .fullwidthFigure h2 {
         font-size: 30px;

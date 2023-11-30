@@ -245,3 +245,121 @@ section.work {
 
 }
 
+
+@media screen and (max-width: 743px) {
+    .fullwidthFigure .about-img img {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px repeat(4, 300px);
+    }
+
+    .fullwidthFigure {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .fullwidthFigure .about-img img {
+        order: -1;
+    }
+
+    .fullwidthFigure h2 {
+        font-size: 30px;
+        padding-top: 0;
+        margin-left: 5%;
+    }
+    #about-me h2 {
+        font-size: 20px;
+        margin: 5px;
+        margin-top: 0;
+    }
+    #about-me p {
+        font-size: 16px;
+    }
+
+    section.work {
+        font-size: 14px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    nav a {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .fullwidthFigure .about-img img {
+        width: 45%;
+        margin: 0;
+    }
+
+    .fullwidthFigure h2 {
+        font-size: 20px;
+        width: 60%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .fullwidthFigure .about-img {
+        display: flex;
+        width: 40%;
+        padding: 20px 0;
+        padding-left: 15px;
+    }
+
+    #about-me h2 {
+        font-size: 16px;
+        margin: 5px;
+        margin-top: 0;
+    }
+    #about-me p {
+        font-size: 12px;
+    }
+
+    section.work {
+        font-size: 10px;
+        margin: 20px;
+    }
+    .contact-container h2 {
+        font-size: 40px;
+    }
+
+    #email {
+        font-size: 18px;
+    }
+
+    #linked-in {
+        font-size: 18px;
+    }
+
+    #website {
+        font-size: 18px;
+
+    }
+
+    #email-link {
+        font-size: 16px;
+    }
+
+    #linkedin-link {
+        font-size: 16px;
+    }
+
+    #website-link {
+        font-size: 16px;
+    }
+
+}
+

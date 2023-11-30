@@ -132,6 +132,7 @@ header h1 {
     display: block;
     height: 100%;
     width: 100%;
+    background-image: url("assets/images/HoriseonMarketing.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -142,8 +143,6 @@ section.work {
     color: #FFF;
     margin: 40px 0;
 }
-
-
 
 /*Phones*/
 @media screen and (max-width: 992px) {

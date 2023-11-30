@@ -132,7 +132,7 @@ header h1 {
     display: block;
     height: 100%;
     width: 100%;
-    background-image: url("assets/images/HoriseonMarketing.png");
+    background-image: url("./images/Marketing.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
